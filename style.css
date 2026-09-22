@@ -1,7 +1,7 @@
 *{
     margin: 0;
     font-family: Arial;
-    border: border-box;
+    box-sizing: border-box;
 }
 
 .navbar{
@@ -139,10 +139,6 @@ span{
     background-image: url(hero_image.png);
     background-size: cover;
     height: 370px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-
 }
 
 .hero-msg{
@@ -153,13 +149,11 @@ span{
     align-items: center;
     justify-content: center;
     font-size: 0.85rem;
-    bottom: 25px;
     width: 95%;
-    margin-bottom: 6px;
-}
-
-.hero-msg a{
-    color: #007185;
+    margin: 0 auto;
+    padding: 8px;
+    text-align: center;
+   
 }
 
 .shop-section{
@@ -176,6 +170,7 @@ span{
 .box{
     height: 400px;
     width: 23%;
+    border-radius: 15px;
     background-color: white;
     padding: 20px 0px 15px;
     margin-top: 15px;
@@ -191,4 +186,86 @@ span{
 .box-content{
     margin-left: 1rem;
     margin-right: 1rem;
+}
+
+.footer-space {
+    height: 180px;
+    background-color: white;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-space h1 {
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.footer-space h4 {
+    width: 230px;
+    height: 30px;
+    background-color: #ffd814;
+    border: 1px solid #fcd200;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 400;
+    color: #111;
+    margin-bottom: 8px;
+}
+
+.footer-space p {
+    font-size: 11px;
+    color: #111;
+    margin: 0;
+}
+
+.footer-space a {
+    color: #007185;
+    text-decoration: none;
+}
+
+.footer-space a:hover {
+    text-decoration: underline;
+}
+
+.footer-up{
+    height: 50px;
+    background-color: #37475a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer {
+    background-color: #232f3e;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 25px 40px;
+    min-height: 150px;
+}
+
+.footer-column {
+    width: 20%;
+}
+
+.footer-column h3 {
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.footer-column p {
+    font-size: 10px;
+    margin-bottom: 5px;
 }
