@@ -269,3 +269,16 @@ span{
     font-size: 10px;
     margin-bottom: 5px;
 }
+
+.footer-image {
+    height: 60px;
+    background-color: #000811;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-image img {
+    width: 100px;
+    height: auto;
+}
