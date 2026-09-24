@@ -12,6 +12,7 @@
     align-items: center;
     justify-content: space-evenly;
 }
+
 .nav-logo{
     height: 50px;
     width: 100px;
@@ -22,6 +23,10 @@
     background-size: cover;
     height: 50px;
     width: 100%;
+}
+
+.logo:hover{
+    cursor: pointer;
 }
 
 .border{
@@ -167,6 +172,11 @@ span{
     text-decoration: none;
 }
 
+.shop-section a:hover{
+    text-decoration: underline;
+}
+
+
 .box{
     height: 400px;
     width: 23%;
@@ -189,7 +199,7 @@ span{
 }
 
 .footer-space {
-    height: 180px;
+    height: 160px;
     background-color: white;
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
@@ -228,6 +238,14 @@ span{
     margin: 0;
 }
 
+.footer-space h1:hover{
+    cursor: pointer;
+}
+
+.footer-space h4:hover{
+    cursor: pointer;
+}
+
 .footer-space a {
     color: #007185;
     text-decoration: none;
@@ -245,6 +263,11 @@ span{
     justify-content: center;
     align-items: center;
 
+}
+
+.footer-up:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 .footer {
@@ -278,7 +301,62 @@ span{
     align-items: center;
 }
 
+.footer-image:hover{
+    cursor: pointer;
+}
+
 .footer-image img {
     width: 100px;
     height: auto;
+}
+
+@media(max-width: 768px){
+
+    .navbar{
+        height:auto;
+        min-height: 60px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 5px;
+    }
+
+    .nav-logo{
+        width:90px;
+        height:45px
+    }
+
+    .logo{
+        width: 100%;
+        height: 45px;
+    }
+
+    .nav-adress{
+        display: none;
+    }
+
+    .nav-signin{
+        font-size: 11px;
+    }
+
+    .nav-signin span,
+    .nav-return span{
+        font-size: 9px;
+    }
+
+    .nav-second{
+        font-size: 11px;
+    }
+
+    .nav-return{
+        font-size: 11px;
+    }
+
+    .nav-cart{
+        font-size: 11px;
+    }
+
+    .nav-cart i{
+        font-size: 22-x;
+    }
+    
 }
