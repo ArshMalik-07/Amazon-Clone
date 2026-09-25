@@ -6,7 +6,7 @@
 
 .navbar{
     height: 60px;
-    background-color: #0f1111;
+    background-color: #000000;
     color: white;
     display: flex;
     align-items: center;
@@ -14,12 +14,12 @@
 }
 
 .nav-logo{
-    height: 50px;
-    width: 100px;
+    height: 55px;
+    width: 200px;
 }
 
 .logo{
-    background-image: url("amazon_logo.png");
+    background-image: url("shopNest.png");
     background-size: cover;
     height: 50px;
     width: 100%;
@@ -140,10 +140,14 @@ span{
     font-weight: 700;
 }
 
-.hero-section{
-    background-image: url(hero_image.png);
-    background-size: cover;
-    height: 370px;
+.hero-section {
+    width: 100%;
+}
+
+.hero-section img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .hero-msg{
@@ -306,7 +310,7 @@ span{
 }
 
 .footer-image img {
-    width: 100px;
+    width: 200px;
     height: auto;
 }
 
@@ -321,8 +325,8 @@ span{
     }
 
     .nav-logo{
-        width:90px;
-        height:45px
+        width:115px;
+        height:50px
     }
 
     .logo{
@@ -358,5 +362,137 @@ span{
     .nav-cart i{
         font-size: 22-x;
     }
+
+    .nav-search{
+        order: 5;
+        width: 100%;
+        height: 40px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .search-select{
+        width: 45px;
+    }
+
+    .search-input{
+        font-size: 14px;
+    }
+
+    .search-icon{
+        width: 45px
+        ;
+    }
+
+    .panel {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+    justify-content: flex-start;
+    white-space: nowrap;
+    }
+
+    .panel-all {
+    margin-left: 10px;
+    flex-shrink: 0;
+    }
+
+    .panel-ops {
+    display: flex;
+    align-items: center;
+    width: max-content;
+    flex-shrink: 0;
+    }
+
+    .panel-ops p {
+    margin: 0 0 0 15px;
+    flex-shrink: 0;
+    white-space: nowrap;
+    }
+
+    .panel-deals {
+    margin-left: 15px;
+    margin-right: 15px;
+    flex-shrink: 0;
+    }
+
+    .hero-section{
+        height: 95px;
+        background-position: center;
+    }
+
+    .hero-msg{
+        width: 100%;
+        height: 30px;
+        font-size: 10px;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .shop-section{
+        padding: 5px;
+    }
+    
+    .box{
+        width: 47%;
+        height: 320px;
+        padding: 15px 0 10px;
+        margin-top: 10px;
+    }
+
+    .box-content{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .box-content h2{
+        font-size: 16px;
+    }
+
+    .box-image{
+        height: 220px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .footer-space{
+        height: 150px;
+        width: 100%;
+    }
+
+    .footer-up{
+        height: 45px;
+        font-size: 13px;
+    }
+
+    .footer{
+        padding: 25px 15px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .footer-column{
+        width: 47%;
+        margin-bottom: 25px;
+    }
+
+    .footer-column h3{
+        font-size: 12px;
+    }
+
+    .footer-column p{
+        font-size: 10px;
+    }
+
+    .footer-image{
+        height: 60px;
+    }
+
+    .footer-image img{
+        width: 90px;
+    }
+
     
 }
